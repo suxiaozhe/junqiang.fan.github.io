@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://suxiaozhe.github.io</id>
     <title>Gridea</title>
-    <updated>2021-06-21T13:20:37.441Z</updated>
+    <updated>2021-06-21T13:23:54.635Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://suxiaozhe.github.io"/>
     <link rel="self" href="https://suxiaozhe.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://suxiaozhe.github.io/post/transactional-zai-dan-ti-ce-shi-shi-hui-mo-ren-hui-gun-rollbacktrue/">
         </link>
         <updated>2021-06-21T13:19:37.000Z</updated>
-        <content type="html"><![CDATA[<p>Junit单元测试时，在测试方法中打事务注解@Transactional，默认会按照@Rollback(true)来进行处理，即使在没加注解@Rollback，也会对事务回滚</p>
+        <content type="html"><![CDATA[<h1 id="junit单元测试时在测试方法中打事务注解transactional默认会按照rollbacktrue来进行处理即使在没加注解rollback也会对事务回滚">Junit单元测试时，在测试方法中打事务注解@Transactional，默认会按照@Rollback(true)来进行处理，即使在没加注解@Rollback，也会对事务回滚</h1>
 <p>@Test<br>
 @Transactional<br>
 public void test01(){<br>
